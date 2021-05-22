@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+section#hero {
+    color: rgb(255, 255, 255);
+    background-color: rgb(236, 91, 91);
+    padding: 95px;
+}
+section#light {
+    color: rgb(7, 8, 8);
+    background-color: rgb(252, 248, 248);
+     padding: 150px;
+}
+section#dark {
+    color: rgb(14, 13, 12);
+    background-color: gray;
+    padding: 150px;
+}
+section#light {
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+     padding: 150px;
+}
+section#light1 {
+    color: rgb(10, 10, 10);
+    background-color: rgb(110, 109, 109);
+     padding: 150px;
+}
+p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.title {
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+}
+.site-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer {
+    background-color: rgb(44, 48, 53);
+     padding: 100px;
+     font-size: 20px;
+}
+p#towtext {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+p#onetext {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+button {
+position: relative;
+}
