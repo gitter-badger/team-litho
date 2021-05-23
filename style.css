@@ -4,12 +4,12 @@ body {
 }
 section#hero {
     color: rgb(255, 255, 255);
-    background-color: rgb(236, 91, 91);
+    background-color: lightcoral;
     padding: 150px;
 }
 section#light {
-    color: rgb(7, 8, 8);
-    background-color: rgb(252, 248, 248);
+    color: rgb(126, 131, 131);
+    background-color: white;
     padding: 150px;
 }
 section#dark {
@@ -19,13 +19,13 @@ section#dark {
 }
 section#light {
     color: rgb(10, 10, 10);
-    background-color: rgb(255, 255, 255);
+    background-color: white;
      padding: 150px;
 }
-section#light1 {
+section#dark {
     color: rgb(10, 10, 10);
     background-color: rgb(110, 109, 109);
-     padding: 150px;
+    padding: 150px;
 }
 p {
     font-weight: bold;
@@ -72,6 +72,12 @@ text-align: center;
 p#p2 {
     font-size: 15px;
     text-align: right;
+    color: rgb(133, 129, 129);
+}
+p#p3 {
+    font-size: 15px;
+    text-align: right;
+    color: rgb(255, 255, 255);
 }
 .container-footer {
     color: white;
