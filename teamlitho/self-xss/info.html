@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="img/css/info.css" />
+    <title>Team Litho | Self-Xss | Info Page</title>
+  </head>
+  <body>
+    <section id="hero-background">
+      <div class="row">
+        <div class="column">
+          <div class="site-name">Team Litho | Self Xss</div>
+          <br />
+          <p>
+            Self-XSS operates by tricking users into copying and pasting
+            malicious content into their browsers' web developer console.[1]
+            Usually, the attacker posts a message that says by copying and
+            running certain code, the user will be able to hack another user's
+            account. In fact, the code allows the attacker to hijack the
+            victim's account
+          </p>
+
+          <div class="button">
+            <button
+              class="btn btn-light"
+              onclick="window.location.href='/docs/tutorial'"
+            >
+              Get Started
+            </button>
+            <button
+              class="btn btn-light"
+              onclick="window.location.href='/page2'"
+            >
+              Learn More
+            </button>
+            <button
+              class="btn btn-light"
+              onclick="window.location.href='/page2'"
+            >
+              Docs
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
