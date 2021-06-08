@@ -1,11 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
 }
 section#hero-img {
   background-image: url("/assets/hero-img.png");
   color: rgb(255, 255, 255);
-  background-color: lightcoral;
   padding: 150px;
 }
 section#light {
