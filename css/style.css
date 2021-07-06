@@ -42,12 +42,6 @@ p {
   font-weight: bold;
   font-size: 25px;
 }
-.footer {
-  background-image: url("/assets/footer-img.png");
-  background-size: cover;
-  padding: 100px;
-  font-size: 20px;
-}
 p#towtext {
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -65,10 +59,6 @@ p#onetext {
 }
 .row {
   position: relative;
-}
-.container {
-  width: 40%;
-  display: right;
 }
 p#p2 {
   font-size: 15px;
@@ -100,12 +90,29 @@ p#footer {
 .title {
   color: black;
 }
-.footerpage {
-  background-color: white;
-  padding: -5px;
-  font-size: 20px;
-}
+
 a#access {
   font-weight: bold;
   color: rgb(0, 72, 139);
+}
+.footer {
+  padding: 20px;
+  background-color: #303846;
+}
+ul {
+  display: block;
+}
+li {
+  display: inline;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+}
+i {
+  color: white;
+  size: 5px;
+}
+.footer-title {
+  color: #393d46;
+  font-size: 20px;
 }
