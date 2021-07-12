@@ -1984,6 +1984,5 @@ const virusData = [
     ]
   }
 ];
-export default virusData;
 
 console.log(virusData);
