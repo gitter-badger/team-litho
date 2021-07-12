@@ -35,3 +35,8 @@ a {
 .container {
   align-content: center;
 }
+a#index {
+  color: firebrick;
+  font-weight: bold;
+  font-size: 20px;
+}
