@@ -1,5 +1,3 @@
-var CovidCase = ["Quebec, 100", "Ontario, 200", "Manitoba, 200"];
+let cars = ["Volvo", "Honda", "bmw"];
 
-// console.log(superAdmin);
-// console.log(CovidCase);
-return CovidCase;
+console.log(cars);
