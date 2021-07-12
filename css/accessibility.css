@@ -43,3 +43,7 @@ a#index {
 h1#demo {
   display: inline;
 }
+h1#posted {
+  text-align: center;
+  padding-bottom: 30px;
+}
