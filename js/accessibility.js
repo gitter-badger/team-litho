@@ -2,8 +2,6 @@
  * @fileoverview Utilities for manipulating JavaScript code.
  * @author joey@tech-center.com (Joey Cadieux)
  */
-
-/**@const */
 const timezone = new Date();
 document.getElementById("timezone").innerHTML = timezone;
 
