@@ -3,7 +3,5 @@
  * @author joey@tech-center.com (Joey Cadieux)
  */
 
-const http = require("http");
-
 const ourtime = new Date();
 document.getElementById("ourtime").innerHTML = ourtime;
