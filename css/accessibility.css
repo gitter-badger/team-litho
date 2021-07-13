@@ -47,3 +47,7 @@ h1#posted {
   text-align: center;
   padding-bottom: 30px;
 }
+.btn {
+  background-color: black;
+  color: white;
+}

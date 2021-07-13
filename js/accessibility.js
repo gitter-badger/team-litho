@@ -15,7 +15,10 @@ document.getElementById("demo").innerHTML = demo;
 const posted = ["Hello World", "DevOps"];
 document.getElementById("posted").innerHTML = posted;
 
-// Background Color /* accessbility.html -> .js */
+// console.log(posted);
 
-/* const ChangeColor = document.getElementById("ChangeColor");
-ChangeColor.body.backgroundColor = "Blue"; */
+// function DarkTheme() {
+//   var element = document.body;
+//   element.classList.toggle(".btn");
+// }
+// DarkTheme();
