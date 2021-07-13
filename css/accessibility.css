@@ -51,3 +51,6 @@ h1#posted {
   background-color: black;
   color: white;
 }
+h1#posted {
+  display: inline;
+}
