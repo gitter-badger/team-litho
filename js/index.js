@@ -8,4 +8,4 @@ document.getElementById("ourtime").innerHTML = ourtime;
 
 // Only in [debugging mode!]
 
-console.log(ourtime);
+// console.log(ourtime);
