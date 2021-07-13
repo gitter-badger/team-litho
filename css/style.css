@@ -73,3 +73,9 @@ a {
 p#ourtime {
   color: firebrick;
 }
+strong {
+  color: rgb(1, 130, 250);
+}
+i {
+  color: rgb(1, 130, 250);
+}
