@@ -1,52 +1,52 @@
-var firebaseConfig = {
-  apiKey: "AIzaSyA20eFtdIhWl1oqE2_5o2sAtHj5SstdnSI",
-  authDomain: "teamlitho-9ac2b.firebaseapp.com",
-  databaseURL: "https://teamlitho-9ac2b-default-rtdb.firebaseio.com",
-  projectId: "teamlitho-9ac2b",
-  storageBucket: "teamlitho-9ac2b.appspot.com",
-  messagingSenderId: "587633326348",
-  appId: "1:587633326348:web:76b3b93999231788287129",
-  measurementId: "G-RZEMM11TG3"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+// var firebaseConfig = {
+//   apiKey: "AIzaSyA20eFtdIhWl1oqE2_5o2sAtHj5SstdnSI",
+//   authDomain: "teamlitho-9ac2b.firebaseapp.com",
+//   databaseURL: "https://teamlitho-9ac2b-default-rtdb.firebaseio.com",
+//   projectId: "teamlitho-9ac2b",
+//   storageBucket: "teamlitho-9ac2b.appspot.com",
+//   messagingSenderId: "587633326348",
+//   appId: "1:587633326348:web:76b3b93999231788287129",
+//   measurementId: "G-RZEMM11TG3"
+// };
+// // Initialize Firebase
+// firebase.initializeApp(firebaseConfig);
+// firebase.analytics();
 
-// lets code
+// // lets code
 
-var datab = firebase.database().ref("data");
-function UserRegister() {
-  var email = document.getElementById("email").value;
-  var password = document.getElementById("password").value;
-  firebase
-    .auth()
-    .createUserWithEmailAndPassword(email, password)
-    .then(function () {})
-    .catch(function (error) {
-      var errorcode = error.code;
-      var errormsg = error.message;
-    });
-}
-const auth = firebase.auth();
-function SignIn() {
-  var email = document.getElementById("eemail").value;
-  var password = document.getElementById("lpassword").value;
-  const promise = auth.signInWithEmailAndPassword(email, password);
-  promise.catch((e) => alert(e.msg));
-  window.open("https://www.google.com", "_self");
-}
-document.getElementById("form").addEventListener("submit", (e) => {
-  e.preventDefault();
-  var userInfo = datab.push();
-  userInfo.set({
-    name: getId("fname"),
-    email: getId("eemail"),
-    password: getId("lpassword")
-  });
-  alert("Successfully Signed Up");
-  console.log("sent");
-  document.getElementById("form").reset();
-});
-function getId(id) {
-  return document.getElementById(id).value;
-}
+// var datab = firebase.database().ref("data");
+// function UserRegister() {
+//   var email = document.getElementById("email").value;
+//   var password = document.getElementById("password").value;
+//   firebase
+//     .auth()
+//     .createUserWithEmailAndPassword(email, password)
+//     .then(function () {})
+//     .catch(function (error) {
+//       var errorcode = error.code;
+//       var errormsg = error.message;
+//     });
+// }
+// const auth = firebase.auth();
+// function SignIn() {
+//   var email = document.getElementById("eemail").value;
+//   var password = document.getElementById("lpassword").value;
+//   const promise = auth.signInWithEmailAndPassword(email, password);
+//   promise.catch((e) => alert(e.msg));
+//   window.open("https://www.google.com", "_self");
+// }
+// document.getElementById("form").addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   var userInfo = datab.push();
+//   userInfo.set({
+//     name: getId("fname"),
+//     email: getId("eemail"),
+//     password: getId("lpassword")
+//   });
+//   alert("Successfully Signed Up");
+//   console.log("sent");
+//   document.getElementById("form").reset();
+// });
+// function getId(id) {
+//   return document.getElementById(id).value;
+// }

@@ -79,3 +79,10 @@ strong {
 i {
   color: rgb(1, 130, 250);
 }
+section#sub-header {
+  display: grid;
+  padding: 30px 40px;
+  background-color: #303846;
+  align-items: center;
+  justify-content: space-between;
+}
