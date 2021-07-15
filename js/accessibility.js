@@ -2,7 +2,7 @@
  * @fileoverview Utilities for manipulating JavaScript code.
  * @author joey@tech-center.com (Joey Cadieux)
  */
-const timezone = new Date();
+let timezone = new Date();
 document.getElementById("timezone").innerHTML = timezone;
 
 const demo = ["Web Developer", "Front End Developer", "Back End Developer"];
@@ -21,9 +21,3 @@ const footerp = new Date();
 document.getElementById("footerp").innerHTML = footerp;
 
 // console.log(posted);
-
-// function DarkTheme() {
-//   var element = document.body;
-//   element.classList.toggle(".btn");
-// }
-// DarkTheme();
