@@ -338,13 +338,13 @@ ul.section li:last-child {
   font-size: 0.75em;
 }
 body {
-  background: linear-gradient(#1267c0, #73a5da);
+  background: linear-gradient(#303846, #73a5da);
 }
 a,
 body,
 button,
 input {
-  color: #1b75d5;
+  color: #303846;
 }
 .on-bg,
 .on-bg a,
