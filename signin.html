@@ -17,7 +17,7 @@
       <input type="text" id="fname" name="fname" value="" /><br />
       <label for="lname">password:</label><br />
       <input type="text" id="lname" name="lname" value="" /><br /><br />
-      <input id="submit" type="submit" value="Login" />
+      <input onclick="Login()" id="submit" type="submit" value="Login" />
     </form>
 
     <div class="footer">
@@ -25,5 +25,26 @@
         &copy; 2021 TeamLitho.netlify.app
       </h1>
     </div>
+
+    <script src="js/signin.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyA20eFtdIhWl1oqE2_5o2sAtHj5SstdnSI",
+        authDomain: "teamlitho-9ac2b.firebaseapp.com",
+        databaseURL: "https://teamlitho-9ac2b-default-rtdb.firebaseio.com",
+        projectId: "teamlitho-9ac2b",
+        storageBucket: "teamlitho-9ac2b.appspot.com",
+        messagingSenderId: "587633326348",
+        appId: "1:587633326348:web:76b3b93999231788287129",
+        measurementId: "G-RZEMM11TG3"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
