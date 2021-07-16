@@ -1,9 +1,0 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-section#hero-background {
-  background-image: url("/img/xss.png");
-  color: rgb(255, 255, 255);
-  padding: 150px;
-}
