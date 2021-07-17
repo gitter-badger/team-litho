@@ -63,6 +63,11 @@
       </div>
     </section>
 
+    <div class="msgBox">
+      <p>This is a message box</p>
+      <button>x</button>
+    </div>
+
     <div id="home">
       <div class="row">
         <p>
@@ -137,7 +142,28 @@
       </div>
     </div>
 
-    <!-- <script src="./code.js"></script> -->
+    <script>
+      function displayMessage() {
+        const html = document.querySelector("html");
+
+        const panel = document.createElement("div");
+        panel.setAttribute("class", "msgBox");
+        html.appendChild(panel);
+
+        const msg = document.createElement("p");
+        msg.textContent = "This is a message box";
+        panel.appendChild(msg);
+
+        const closeBtn = document.createElement("button");
+        closeBtn.textContent = "x";
+        panel.appendChild(closeBtn);
+
+        closeBtn.onclick = function () {
+          panel.parentNode.removeChild(panel);
+        };
+      }
+      displayMessage();
+    </script>
     <script src="js/index.js"></script>
     <script src="js/script.js"></script>
   </body>
