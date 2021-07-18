@@ -14,6 +14,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script>
+      $(document).ready(function(){
+        $(".modal").modal('show');
+      });
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Team Litho | Developers</title>
@@ -21,6 +26,26 @@
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" type="image/png" href="assets/logo.png" />
   </head>
+
+  
+  <div class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
   <body class="home">
     <section id="hero-img">
@@ -63,10 +88,6 @@
       </div>
     </section>
 
-    <div class="msgBox">
-      <p>This is a message box</p>
-      <button>x</button>
-    </div>
 
     <div id="home">
       <div class="row">
@@ -112,6 +133,7 @@
       </div>
     </div>
 
+
     <!-- Footer -->
     <div class="footer">
       <div id="links">
@@ -142,27 +164,7 @@
       </div>
     </div>
 
-    <script>
-      function displayMessage() {
-        const html = document.querySelector("html");
-
-        const panel = document.createElement("div");
-        panel.setAttribute("class", "msgBox");
-        html.appendChild(panel);
-
-        const msg = document.createElement("p");
-        msg.textContent = "This is a message box";
-        panel.appendChild(msg);
-
-        const closeBtn = document.createElement("button");
-        closeBtn.textContent = "x";
-        panel.appendChild(closeBtn);
-
-        closeBtn.onclick = function () {
-          panel.parentNode.removeChild(panel);
-        };
-      }
-      displayMessage();
+  
     </script>
     <script src="js/index.js"></script>
     <script src="js/script.js"></script>
