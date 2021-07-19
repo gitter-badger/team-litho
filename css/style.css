@@ -3,7 +3,7 @@
   padding: 0;
 }
 section#hero-img {
-  background-image: url("/assets/space.png");
+  background-image: url("/assets/dark.png");
   color: rgb(255, 255, 255);
   padding: 150px;
 }
