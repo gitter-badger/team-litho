@@ -70,6 +70,11 @@ a {
   font-size: 25px;
   background-color: #21b935;
 }
+.contact {
+  padding: 150px;
+  font-size: 25px;
+  background-color: #b92186;
+}
 p#ourtime {
   color: firebrick;
 }
