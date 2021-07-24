@@ -4,5 +4,5 @@
  */
 
 const moment = new Date();
-moment.setHours();
+moment.setHours(11);
 document.getElementById("moment").innerHTML = moment;
