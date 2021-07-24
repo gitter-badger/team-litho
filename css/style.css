@@ -76,7 +76,7 @@ a {
   font-size: 25px;
   background-color: #b9a221;
 }
-p#ourtime {
+p#moment {
   color: firebrick;
 }
 strong {
@@ -91,4 +91,7 @@ section#sub-header {
   background-color: #303846;
   align-items: center;
   justify-content: space-between;
+}
+h1 {
+  text-align: center;
 }
