@@ -3,5 +3,10 @@
  * @author joey@tech-center.com (Joey Cadieux)
  */
 
-const ourtime = new Date();
-document.getElementById("ourtime").innerHTML = ourtime;
+var moment = require("moment-timezone");
+moment().tz("America/Los_Angeles").format();
+
+document.getElementById("moment").innerHTML = moment;
+
+// const ourtime = new Date();
+// document.getElementById("ourtime").innerHTML = ourtime;
