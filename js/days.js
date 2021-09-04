@@ -1,2 +1,2 @@
-const days = moment().format('LLLL');
+const days = moment().calendar();
 document.getElementById("days").innerHTML = days;
