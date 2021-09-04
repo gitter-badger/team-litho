@@ -3,6 +3,5 @@
  * @author joey@tech-center.com (Joey Cadieux)
  */
 
-const moment = new Date();
-moment.setHours(11);
-document.getElementById("moment").innerHTML = moment;
+const timeupdater = moment().format('MMMM Do YYYY, h:mm:ss a');
+document.getElementById("timeupdater").innerHTML = timeupdater;
