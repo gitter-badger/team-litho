@@ -25,3 +25,7 @@ section#info > h4 {
 	color: white;
 	font-family: sans-serif;
 }
+.charts {
+	padding: 0;
+	margin: 0;
+}
