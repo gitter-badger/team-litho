@@ -23,7 +23,15 @@
 
 <body class="home">
 	<div class="alertbanner">
-		<h1> <i id="alerts" class="fas fa-exclamation-triangle"></i> We are in the process of updating our server  | <p id="days"></p>  </h1>
+		<h1> <i id="alerts" class="fas fa-exclamation-triangle"></i> We are in the process of updating our server  | <p id="days"></p> <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+      >
+        Latest Update
+      </button>  </h1>
 	</div>
 	<section id="hero-img">
 		<div class="row">
@@ -122,7 +130,7 @@
           countries.
         </p>
       </div>
-      <button
+      <!-- <button
         class="btn btn-primary"
         type="button"
         data-bs-toggle="offcanvas"
@@ -130,7 +138,7 @@
         aria-controls="offcanvasRight"
       >
         Latest Update
-      </button>
+      </button> -->
 
       <div
         class="offcanvas offcanvas-end"
@@ -139,7 +147,7 @@
         aria-labelledby="offcanvasRightLabel"
       >
         <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">Latest Update | TeamLitho</h5>
+          <h5 id="offcanvasRightLabel">Latest Update | TeamLitho <strong> Server </strong></h5>
           <button
             type="button"
             class="btn-close text-reset"
@@ -148,20 +156,17 @@
           ></button>
         </div>
         <div class="offcanvas-body">
-          <h1>
-            <a
-              style="color: black; font-weight: bold;"
-              href="https://github.com/drjoeycadieux/team-litho/releases/tag/ApplePie0.1"
-              >Github</a
-            >
-          </h1>
-          Official TeamLitho Just Deploy Now! TeamLitho.com - Developed By Joey
-          Cadieux Just deployed now the teamlitho website for [production].
+          <h3>
+      For some reason the TeamLitho server is not responding to HTTP
+      connections. Could be that it has crashed, overloaded, or down for
+      maintenance&mdash;or it could be that we've accidentally broken the
+      internal web server
+          </h3>
         </div>
       </div>
     </div>
 
-    <!-- Footer -->
+  
     <div class="footer">
       <div id="links">
         <ul>
