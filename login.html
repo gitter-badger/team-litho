@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://cdn.auth0.com/js/lock/11.30/lock.min.js">
+
 	</script>
 	<title>Your Account | TeamLitho</title>
 </head>
@@ -13,8 +14,6 @@
 	<header>
 		<h1>Your Account | TeamLitho</h1>
 	</header>
-
-
 	<!--[if IE 8]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.5/ie8.js"></script>
   <![endif]-->
@@ -23,6 +22,9 @@
   <script src="https://cdn.auth0.com/js/base64.js"></script>
   <script src="https://cdn.auth0.com/js/es5-shim.min.js"></script>
   <![endif]-->
+
+	<script src="https://cdn.auth0.com/js/lock/11.30/lock.min.js">
+	</script>
 	<script>
 		// Decode utf8 characters properly
     var config = JSON.parse(decodeURIComponent(escape(window.atob('@@config@@'))));
@@ -81,7 +83,6 @@
 
     lock.show();
 	</script>
-
 	<style>
 		body {
 			padding: 0;
