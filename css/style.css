@@ -99,7 +99,7 @@ h1 {
 }
 .alertbanner {
 	padding: 1px;
-	background-color: firebrick;
+	background-color: rgb(19, 112, 189);
 }
 .alertbanner > h1 {
 	color: white;
