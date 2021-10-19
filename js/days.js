@@ -3,5 +3,5 @@
  * @author joey@tech-center.com (Joey Cadieux)
  */
 
-const days = moment().add(5, 'days').calendar();
+const days = moment().format('LTS');
 document.getElementById("days").innerHTML = days;
