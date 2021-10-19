@@ -121,7 +121,7 @@ h1 {
 /* width */
 ::-webkit-scrollbar {
 	width: 15px;
-	background-color: black;
+	background-color: rgba(11, 66, 150, 0.726);
   }
   
   /* Track */
