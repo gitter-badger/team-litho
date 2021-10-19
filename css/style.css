@@ -42,7 +42,7 @@ li {
   margin: 10px;
 }
 i {
-  color: white;
+  color: rgb(231, 225, 225);
   size: 5px;
 }
 .footer-title {
@@ -113,7 +113,7 @@ h1 {
 	display: inline;
 }
 .alertbanner > h1 > i#alerts {
-	color: white;
+	color: rgb(212, 14, 14);
 }
 
 /* Scroll Themes */
