@@ -5,7 +5,8 @@
   padding: 0;
 }
 section#hero-img {
-  background-image: url("/assets/dark.png");
+	background-color: lightcoral;
+  /* background-image: url("/assets/dark.png"); */
   color: rgb(255, 255, 255);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 150px;
@@ -79,7 +80,7 @@ a {
   background-color: #b9a221;
 }
 p#timeupdater {
-  color: firebrick;
+  color: rgb(187, 11, 11);
 }
 strong {
   color: rgb(1, 130, 250);
