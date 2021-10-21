@@ -1,205 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-	 crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-	 crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" href="/static/logo.png" type="image/x-icon" />
+	<meta http-equiv="refresh" content="20;url=https://teamlitho.com/home.html" />
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="icon" type="image/png" href="assets/logo.png" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" referrerpolicy="no-referrer">
-
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-	 crossorigin="anonymous">
-
-	</script>
-	<title>Team Litho | Developers</title>
+	<title>TeamLitho - Welcome Back!</title>
 </head>
 
-<body class="home">
-	<div class="alertbanner">
-		<h1> <i id="alerts" class="fas fa-exclamation-triangle"></i> We are currently doing some changes let us know if you found bugs on site.  | <p id="days"></p> <button
-        class="btn btn-primary"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasRight"
-        aria-controls="offcanvasRight"
-      >
-        Report an Issues!
-      </button>  </h1>
+<body>
+	<div class="loading">
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
 	</div>
-	<section id="hero-img">
-		<div class="row">
-			<div class="column">
-				<div class="sitename">
-					<h1>TeamLitho | Developer</h1>
-				</div>
-				<p id="timeupdater"></p>
-				<br />
-          <p>
-            A computer programmer, sometimes called a software developer, a
-            programmer or more recently a coder, is a person who creates
-            computer software. The term computer programmer can refer to a
-            specialist in one area of computers, or to a generalist who writes
-            code for many kinds of software.
-          </p>
+</body>
 
-          <!-- <div class="button">
-            <button
-              class="btn btn-light"
-              onclick="window.location.href='404.html'"
-            >
-              Get Started
-            </button>
-            <button
-              class="btn btn-light"
-              onclick="window.location.href='/page2'"
-            >
-              Learn More
-            </button>
-            <button
-              class="btn btn-light"
-              onclick="window.location.href='/page2'"
-            >
-              Docs
-            </button>
-            
-          </div> -->
-        </div>
-      </div>
-    </section>
-
-    <div id="home">
-      <div class="row">
-        <p>
-          Japan has a large conglomerate of international level such as:
-          Fujifilm (which developed the first general public computer, the FUJIC
-          (in) 1999 in 1956) and Sony, Panasonic, Canon, Nikon, Fujitsu,
-          Hitachi, Sharp, NEC , Nintendo, Epson or Toshiba are among the most
-          famous companies in the world.
-        </p>
-      </div>
-    </div>
-
-    <div id="content">
-      <div class="row">
-        <p>
-          With Content Technology, we enable Media Companies, Educational
-          organisations, Corporate Institutions and Retailers engage their
-          customers and staff by creating workflow solutions that create
-          content, manage content, distribute content and analyse content.
-        </p>
-      </div>
-    </div>
-
-    <div id="support">
-      <div class="row">
-        <p>
-          A help desk is a resource intended to provide the customer or end user
-          with information and support related to a company's or institution's
-          products and services
-        </p>
-      </div>
-    </div>
-
-    <div class="feature">
-      <div class="row">
-        <p>
-          Technology is defined as “purposeful intervention by design”, and
-          technological practice as the activity through which technological
-          outcomes are created and have impact in the world. Technological
-          outcomes are designed to enhance the capabilities of people and expand
-          human possibilities
-        </p>
-      </div>
-    </div>
-
-    <div class="contact">
-      <div class="row">
-        <p>
-          What is the benefits of technology today? At the medical level,
-          technology can help treat more sick people and consequently save many
-          lives and combat very harmful viruses and bacteria. The invention of
-          the computer was a very important point. Communication is thus
-          enhanced, and companies can communicate more easily with foreign
-          countries.
-        </p>
-      </div>
-      <!-- <button
-        class="btn btn-primary"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasRight"
-        aria-controls="offcanvasRight"
-      >
-        Latest Update
-      </button> -->
-
-      <div
-        class="offcanvas offcanvas-end"
-        tabindex="-1"
-        id="offcanvasRight"
-        aria-labelledby="offcanvasRightLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">Latest Update | TeamLitho</h5>
-          <button
-            type="button"
-            class="btn-close text-reset"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <h3>
-						We are currently doing some changes let us know if you found bugs on site.
-          </h3>
-					<button style="border-radius: 5px; padding: 1.5rem;" class="btn-primary"><a href="https://github.com/drjoeycadieux/team-litho">Github Repo</a></button>
-			<button style="border-radius: 5px; padding: 1.5rem; class="btn-warning"><a href="https://forms.gle/XhwZStcgCEh3mDk9A">Found An Issues</a></button>
-        </div>
-      </div>
-    </div>
-
-  
-    <div class="footer">
-      <div id="links">
-        <ul>
-          <li>
-            <i class="fas fa-universal-access"></i
-            ><a href="Accessibility.html">Accessibility</a>
-          </li>
-          <li>
-            <i class="fas fa-id-badge"></i
-            ><a
-              href="https://github.com/drjoeycadieux/team-litho/blob/master/License.md"
-              >License</a
-            >
-          </li>
-          <li>
-            <i class="fab fa-github-square"></i
-            ><a href="https://github.com/drjoeycadieux/team-litho/releases/tag/RaspberryPie0.2"
-              >Github
-              <span class="badge rounded-pill bg-warning">Latest Release [ RaspberryPie0.2 ]</span></a
-            >
-          </li>
-          <li><i class="fas fa-file-code"></i><a href="">Developers</a></li>
-          <!-- <li>
-            <i class="fas fa-viruses"></i
-            ><a href="careers.html">Careers</a
-            >
-          </li> -->
-        </ul>
-        <p id="footerp"></p>
-        <p class="footer-title">&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Team Litho | Developers</p>
-      </div>
-    </div>
-
-    <script src="/js/days.js"></script>
-    <script src="/js/index.js"></script>
-    <script src="/js/script.js"></script>
-  </body>
 </html>
+
+<style>
+	body {
+		margin: 0;
+		padding: 0;
+		background-color: blue;
+	}
+
+	.loading {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 40px;
+		display: flex;
+		align-items: center;
+	}
+
+	.obj {
+		width: 6px;
+		height: 40px;
+		background: white;
+		margin: 0 3px;
+		border-radius: 10px;
+		animation: loading 0.8s infinite;
+	}
+
+	.obj:nth-child(2) {
+		animation-delay: 0.1s;
+	}
+
+	.obj:nth-child(3) {
+		animation-delay: 0.2s;
+	}
+
+	.obj:nth-child(4) {
+		animation-delay: 0.3s;
+	}
+
+	.obj:nth-child(5) {
+		animation-delay: 0.4s;
+	}
+
+	.obj:nth-child(6) {
+		animation-delay: 0.5s;
+	}
+
+	.obj:nth-child(7) {
+		animation-delay: 0.6s;
+	}
+
+	.obj:nth-child(8) {
+		animation-delay: 0.7s;
+	}
+
+	@keyframes loading {
+		0% {
+			height: 0;
+		}
+		50% {
+			height: 40px;
+		}
+		100% {
+			height: 0;
+		}
+	}
+</style>
