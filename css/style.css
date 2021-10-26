@@ -4,8 +4,10 @@
   margin: 0;
   padding: 0;
 }
-
-
+img {
+ max-height: 40px;
+ width: auto;
+}
 section#hero-img {
 	background-color: lightcoral;
   /* background-image: url("/assets/dark.png"); */
