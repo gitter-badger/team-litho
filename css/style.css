@@ -104,7 +104,7 @@ h1 {
 }
 .alertbanner {
 	padding: 1px;
-	background-color: rgb(19, 112, 189);
+	background-color: rgb(228, 13, 13);
 }
 .alertbanner > h1 {
 	color: white;
@@ -118,7 +118,7 @@ h1 {
 	display: inline;
 }
 .alertbanner > h1 > i#alerts {
-	color: rgb(212, 199, 14);
+	color: rgb(255, 238, 1);
 }
 
 /* Scroll Themes */
