@@ -104,7 +104,7 @@ h1 {
 }
 .alertbanner {
 	padding: 1px;
-	background-color: rgb(228, 13, 13);
+	background-color: rgb(13, 63, 228);
 }
 .alertbanner > h1 {
 	color: white;
