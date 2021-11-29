@@ -1,6 +1,5 @@
 var cssRule =
   "color: red;" +
-  "background-color: yellow;" +
   "font-size: 50px;" +
   "font-weight: bold;" +
   "text-shadow: 1px 1px 5px rgb(249, 162, 34);" +
