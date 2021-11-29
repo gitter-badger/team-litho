@@ -84,7 +84,7 @@ a {
   background-color: #b9a221;
 }
 p#timeupdater {
-  color: rgb(187, 11, 11);
+  color: rgb(0, 0, 0);
 }
 strong {
   color: rgb(1, 130, 250);
@@ -104,7 +104,7 @@ h1 {
 }
 .alertbanner {
 	padding: 1px;
-	background-color: rgb(228, 13, 13);
+	background-color: rgb(21, 163, 28);
 }
 .alertbanner > h1 {
 	color: white;
