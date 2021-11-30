@@ -9,11 +9,11 @@ img {
  width: auto;
 }
 section#hero-img {
-	background-color: lightcoral;
-  /* background-image: url("/assets/dark.png"); */
+	/* background-color: lightcoral; */
+  background-image: url("/images/cad.jpg");
   color: rgb(255, 255, 255);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  padding: 190px;
+  padding: 180px;
 }
 .button {
   text-align: center;
@@ -102,24 +102,6 @@ section#sub-header {
 h1 {
   text-align: center;
 }
-.alertbanner {
-	padding: 1px;
-	background-color: rgb(21, 163, 28);
-}
-.alertbanner > h1 {
-	color: white;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 20px;
-	padding: 1rem;
-}
-.alertbanner > h1 > p#days {
-	font-size: 20px;
-	color: black;
-	display: inline;
-}
-.alertbanner > h1 > i#alerts {
-	color: rgb(7, 7, 7);
-}
 
 /* Scroll Themes */
 
@@ -142,4 +124,4 @@ h1 {
   }
 
 
-	/* Bootstrap Card */
+	/* NewHome Header */
