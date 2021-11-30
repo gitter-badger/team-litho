@@ -12,7 +12,7 @@ section#hero-img {
 	/* background-color: lightcoral; */
   background-image: url("/images/cad.jpg");
 	background-size: cover;
-  color: rgb(255, 255, 255);
+  color: rgb(10, 3, 3);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 180px;
 }
