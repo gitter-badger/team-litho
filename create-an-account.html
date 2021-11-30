@@ -17,23 +17,18 @@
 		<h3 class="text-center "><span style="font-weight: bold; color: blue;">Create</span> <span style="font-weight: bold; color: white;">An</span> <span style="color: red;">Account</span></h3>
 		<div class="form-group mt-5 ">
 			<label  style="font-weight: bold; color: white; width: 6em; " for="email ">Email:</label>
-     <input type="email " name=" " id=" ">
+     <input type="email " name=" " id="email">
 		 <br>
 		 <label  style="font-weight: bold; color: white; width: 6em; " for="confirmemail ">Confirm Your Email:</label>
-     <input type="email " name="email" id=" ">
+     <input type="email " name="email" id="confirm_email">
 		 <br>
 		 <label  style="font-weight: bold; color: white; width: 6em; " for="password ">Password:</label>
-    <input type="password " name=" " id=" ">
+    <input type="password " name=" " id="password">
 		<br>
 		<label  style="font-weight: bold; color: white; width: 6em; " for="password ">Confirm Password:</label>
-    <input type="password " name=" " id=" ">
+    <input type="password " name=" " id="confirm_password">
 		</div>
-   <input
-        type="button "
-        class="btn btn-lg btn-primary "
-        type="submit "
-        value="Create An Account "
-      />
+   <input class="btn btn-lg btn-primary " onclick="register()" type="submit" value="Create An Account">
 	</div>
  <footer class="mt-4 ">
       <h3 style="text-align: center; color: white; font-weight: bold; ">
@@ -46,6 +41,8 @@
       </h3>
 				<h5 style="text-align: center; color: black; font-weight: bold; " >You Are A Member? <a style="text-align: center; color: firebrick; font-weight: bold;" href="index.html ">Login To Your Account</a></h5>
     </footer>
+
+<script src="js/firebase.js"></script>
 </body>
 
 </html>
