@@ -24,8 +24,8 @@ const database = firebase.database()
 function register() {
 	email = document.getElementById("email").value
 	confirm_email = document.getElementById("confirm_email").value
-	password = document.getElementById("password").value
 	confirm_password = document.getElementById("confirm_password").value
+	password = document.getElementById("password").value
 }
 
 function validate_email(email) {
