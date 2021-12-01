@@ -135,10 +135,7 @@ h1 {
 		text-align: center;
 	}
 	.alerts a {
-		color: rgb(21, 79, 189);
+		color: #737479;
 		font-size: 25px;
 		text-decoration: none;
-	}
-	alerts a:hover {
-	  color: #737479;
 	}
