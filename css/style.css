@@ -124,5 +124,13 @@ h1 {
 	border-radius: 10px;
   }
 
-
-	/* NewHome Header */
+	.alerts {
+		padding: 1px;
+		background-color: black;
+		border-radius: 5px;
+	}
+	.alerts h3 {
+		padding: 2rem;
+		color: white;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
