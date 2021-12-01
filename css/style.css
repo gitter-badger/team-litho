@@ -137,5 +137,5 @@ h1 {
 	.alerts a {
 		color: #737479;
 		font-size: 25px;
-		text-decoration: none;
+		text-decoration: underline;
 	}
