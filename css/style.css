@@ -129,7 +129,7 @@ h1 {
 		background-color: rgb(23, 100, 214);
 	}
 	.alerts h3 {
-		padding: 1rem;
+		/* padding: 1rem; */
 		color: white;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		text-align: center;
