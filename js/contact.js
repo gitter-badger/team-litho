@@ -4,4 +4,4 @@
  */
 
 const contactpage = moment().format('LTS');
-document.getElementById("contactpage").innerHTML = contactpage; 
+document.getElementById("contactpage").innerHTML = contactpage;
