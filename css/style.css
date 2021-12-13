@@ -12,6 +12,7 @@ section#hero-img {
 	/* background-color: lightcoral; */
   background-image: url("/images/software-engineer.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
   color: #000000;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 190px;
