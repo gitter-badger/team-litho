@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/yeti/bootstrap.min.css" integrity="sha384-mLBxp+1RMvmQmXOjBzRjqqr0dP9VHU2tb3FK6VB0fJN/AOu7/y+CAeYeWJZ4b3ii"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+	 crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" referrerpolicy="no-referrer">
+	</script>
+	<title>TeamLitho | Panel</title>
+</head>
+
+<body>
+
+	<div style="background-color: lightslategray; padding: 150px;" class="header">
+		<h2>TeamLitho | Panel</h2>
+	</div>
+
+	<div class="container mt-4 p-4 float-left">
+		<div class="card">
+			<h5 class="card-header">Featured</h5>
+			<div class="card-body">
+				<h5 class="card-title">Special title treatment</h5>
+				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+				<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-4 p-4 float-right">
+		<div class="card text-center">
+			<div class="card-header">
+				Featured
+			</div>
+			<div class="card-body">
+				<h5 class="card-title">Special title treatment</h5>
+				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+				<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+			<div class="card-footer text-muted">
+				<p id="timedate" style="font-weight: bold;">
+					<script type="text/javascript">
+						const timedate = moment().startOf('day').fromNow();
+					 document.getElementById("timedate").innerHTML = timedate;
+					</script>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+
+</body>
+
+</html>
