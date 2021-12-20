@@ -7,7 +7,7 @@ var cssRule =
 console.log("%cStop!", cssRule);
 
 var cssRule =
-	"color: red;" +
+	"color: black;" +
 	"font-size: 70px;" +
 	"font-weight: bold;" +
 	"text-shadow: 1px 1px 10px rgb(20, 0, 208);" +
