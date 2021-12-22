@@ -9,22 +9,19 @@ document.getElementById("contactpage").innerHTML = contactpage;
 
 // Contact Form
 
-const __email = __email;
-document.getElementById("__email").innerHTML = __email;
-
-
-const __msg = __msg;
-document.getElementById("__msg").innerHTML = __msg;
-
-
-function validateMsg(msg) {
-	if (typeof msg !== 'string' || msg.lenth < 10) {
-		return 'Message: Whoops!'
+function validateForm() {
+	let x = document.forms['contact']['email'].value;
+	if (x == '') {
+		alert("Email  must be filled out");
+		return false;
 	}
 }
 
-function validateEmail(email) {
-	if (typeof email !== 'string' || email.lenth < 3) {
-		return 'Email: Whoops!'
+
+function validateForm() {
+	let x = document.forms['contact']['body'].value;
+	if (x == '') {
+		alert("Body  must be filled out");
+		return false;
 	}
 }
