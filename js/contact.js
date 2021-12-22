@@ -9,19 +9,21 @@ document.getElementById("contactpage").innerHTML = contactpage;
 
 // Contact Form
 
-function validateForm() {
-	let x = document.forms['contact']['email'].value;
-	if (x == '') {
-		alert("Email  must be filled out");
-		return false;
-	}
-}
+const forms = doucment.getElementById('forms')
+const fname = document.getElementById('fname')
+const email = document.getElementById('email')
+const phone = document.getElementById('phone')
+const body = document.getElementById('body')
 
+const errorElement = document.getElementById('error')
 
-function validateForm() {
-	let x = document.forms['contact']['body'].value;
-	if (x == '') {
-		alert("Body  must be filled out");
-		return false;
+forms.addEventListener('submit', (e) => {
+	let messages = []
+	if (fname.value === '' || fname.value == null) {
+		messages.push('Name is required!')
 	}
-}
+	if (messages.length > 0) {
+		errorElement.innerText = messages.join(', ')
+		e.preventDefault()
+	}
+})
