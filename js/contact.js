@@ -22,8 +22,11 @@ forms.addEventListener('submit', (e) => {
 	if (fname.value === '' || fname.value == null) {
 		messages.push('Name is required!')
 	}
+
 	if (messages.length > 0) {
 		errorElement.innerText = messages.join(', ')
 		e.preventDefault()
 	}
+
+
 })
