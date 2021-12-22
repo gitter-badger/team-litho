@@ -38,6 +38,7 @@ p {
 .footer {
   padding: 25px;
   background-color: #303846;
+	/* background-color: #fff; */
 }
 ul {
   display: block;
