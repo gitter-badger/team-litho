@@ -9,7 +9,7 @@ document.getElementById("contactpage").innerHTML = contactpage;
 
 // Contact Form
 
-const forms = doucment.getElementById('forms')
+const forms = document.getElementById('forms')
 const fname = document.getElementById('fname')
 const email = document.getElementById('email')
 const phone = document.getElementById('phone')
