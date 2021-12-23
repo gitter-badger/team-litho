@@ -139,7 +139,7 @@ h1 {
 	.alerts a {
 		color: #000000;
 		font-size: 25px;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 	.alerts a:hover {
 		color: lightslategray;
