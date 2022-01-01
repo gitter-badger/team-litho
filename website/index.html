@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/yeti/bootstrap.min.css" integrity="sha384-mLBxp+1RMvmQmXOjBzRjqqr0dP9VHU2tb3FK6VB0fJN/AOu7/y+CAeYeWJZ4b3ii"
+	 crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" referrerpolicy="no-referrer">
+
+	</script>
+	<link rel="icon" type="image/png" href="/assets/logo.png" />
+	<meta http-equiv="refresh" content="0;URL='https://teamlitho-underconstruction.netlify.app/'" />
+	<title>TeamLitho | Welcome</title>
+</head>
+
+<body style="background-image: url(images/hello.jpg); background-size: cover;">
+	<div style="outline: solid 4px rgb(0, 0, 0); align-items: center; background-color: #303846; text-align: center;" class="container mb-4 mt-4 p-4">
+		<h2 style="font-weight: bold; color: white;" class="text-center"> <span style="text-align: center; color: lightblue;">Team</span> <span style="text-align: center; color: firebrick;">Litho</span> <span style="text-align: center; color: pink;">- Canada</span> </h2>
+		<div class="form-group mt-4">
+			<button onclick="newDoc1()" class="btn-lg btn-outline-primary">Home</button>
+			<button onclick="newDoc2()" class="btn-lg btn-outline-primary">Portal</button>
+				<button onclick="newDoc3()" class="btn-lg btn-outline-warning">Server</button>
+				<button onclick="accessPanel()" class="btn-lg btn-outline-warning">Dashboard</button>
+		</div>
+		<h3 class="text-sm" style="color: lightgray; font-weight: 700;">&copy; TeamLitho | Developer</h3>
+	</div>
+    
+		<div class="container mt-4 p-5" style="padding: 1px; background-color: firebrick; outline: solid black 5px;" class="alerts-banner">
+			<h3 style="color: white; font-weight: bold;"><span class="badge rounded-pill bg-danger">Covid-19</span>Consult all the information on COVID-19.</h3>
+			<hr>
+			<h4><a style="text-decoration: none; color: #fff;" href="https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus">Learn More</a></h4>		 
+		</div>
+
+		<div class="container mt-4 p-4">
+		<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Quebec Covid-19 Information</h5>
+        <p class="card-text">Coronavirus disease (COVID-19) in Québec</p>
+        <a href="https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus" class="btn btn-primary">Goverment Website</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">International Covid-19 Information</h5>
+        <p class="card-text">Coronavirus disease (COVID-19) pandemic</p>
+        <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" class="btn btn-primary">World Health Organization</a>
+      </div>
+    </div>
+  </div>
+</div>
+		</div>
+
+		<!-- <div class="container mt-4 p-4">
+			 <div class="card text-center">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  <div class="card-footer text-muted">
+    <p id="datadate" class="text-center" style="font-weight:bold; color: black;">
+			<script type="text/javascript">
+				const datadate = moment().startOf('hour').fromNow();
+				document.getElementById("datadate").innerHTML = datadate;
+			</script>
+		</p>
+  </div>
+</div> -->
+		</div>
+
+			<script>
+ function newDoc1() {
+  window.location.assign("https://www.teamlitho.com/home")
+}  
+ function newDoc2() {
+  window.location.assign("https://portal.teamlitho.com")
+}  
+ function newDoc3() {
+  window.location.assign("https://server.teamlitho.com")
+}
+function accessPanel() {
+	 window.location.assign("/dashboard/admin-panel/index")
+}
+console.log(datadate);
+</script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
