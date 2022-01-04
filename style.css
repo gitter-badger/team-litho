@@ -36,10 +36,14 @@ li {
 }
 a {
 	text-decoration: none;
-	color: rgb(163, 83, 8);
+	color: rgb(109, 109, 109);
 }
 a:hover {
-	color: lightslategray;
+	color: rgb(17, 115, 214);
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(214, 17, 17);
 	text-decoration: none;
 }
 div#svg3 {
