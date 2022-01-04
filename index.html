@@ -162,7 +162,8 @@
       </div>
       <div class="modal-body">
        <div class="container mt-4 p-4 text-center">
-	         <div id="myData"></div>
+	         <h3 id="myData"></h3>
+           <button onclick="dataLink()" class="btn btn-info">Github</button>
            </div>
       </div>
       <div class="modal-footer">
@@ -173,7 +174,11 @@
   </div>
 </div>
 	<!-- End -->
-
-<script src="js/fetchdata.js"></script>
+<script>
+  function dataLink() {
+  window.location.assign("https://github.com/drjoeycadieux/team-litho/releases/tag/Gingerbread2.3")
+}
+</script>
+<script src="js/link.js"></script>
 </body>
 </html>
