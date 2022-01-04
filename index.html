@@ -143,19 +143,14 @@
 	<div class="footer">
 		<hr style="color: lightslategray;">
 		<h3>&copy; 2021-2022 TeamLitho LLC</h3>
-     <div class="container">
-  <div class="row">
-    <div class="col">
-      	<li><a href="/license">License</a></li>
-    </div>
-    <div class="col">
-      	<li><a href="/privacy">Privacy Policy</a></li>
-    </div>
-    <div class="col">
-      <li><a href="/terms">Terms of Services</a></li>
-    </div>
-  </div>
-</div>		
+    		<div class="nav">
+			<ul>
+				<li><a href="/home.html">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#team">Our Team</a></li>
+				<li><a href="/stockvideo">Stock Video</a></li>
+			</ul>
+		</div>
 	</div>
 
 
@@ -167,10 +162,9 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <h3>
-				   TeamLitho Version2.3 have been release.
-				</h3>
-				 <p>New Features implemented.</p>
+       <div class="container mt-4 p-4 text-center">
+	         <div id="myData"></div>
+           </div>
       </div>
       <div class="modal-footer">
         <!-- <button type="button" class="btn btn-secondary">Close</button> -->
@@ -181,5 +175,6 @@
 </div>
 	<!-- End -->
 
+<script src="js/fetchdata.js"></script>
 </body>
 </html>
