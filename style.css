@@ -63,11 +63,12 @@ div#svg3 {
 .footer > h3 {
   text-align: center;
 }
-.footer > ul {
+ul {
   display: block;
 }
-.footer > a {
-   margin: 10px;
-   padding: 1rem;
-   text-align: center;
+li {
+  display: inline;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
 }
