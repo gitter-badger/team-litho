@@ -57,13 +57,17 @@ div#svg3 {
 	padding-top: 25px;
 }
 .footer {
-	padding: 25px;
-  background-color: #303846;
+  padding: 25px;
+  background-color: #fff;
 }
-.footer h3 {
-	color: white;
-	text-align: center;
+.footer > h3 {
+  text-align: center;
 }
-hr#new2 {
- color: rgb(0, 3, 5);
+.footer > ul {
+  display: block;
+}
+.footer > a {
+   margin: 10px;
+   padding: 1rem;
+   text-align: center;
 }
