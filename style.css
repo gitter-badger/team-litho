@@ -29,7 +29,7 @@ body {
 ul {
   display: block;
 }
-li {
+a {
   display: inline;
   font-weight: bold;
   color: black;
