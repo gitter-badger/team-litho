@@ -32,9 +32,9 @@ ul {
 a {
   display: inline;
   font-weight: bold;
-  color: black;
+  color: rgb(245, 245, 245);
   margin: 5px;
-  border: solid white 2px;
+  /* border: solid white 2px; */
   border-radius: 5px;
   padding: 1rem;
   text-align: center;
