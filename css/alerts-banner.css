@@ -1,0 +1,10 @@
+.alerts-banner {
+  background-color: rgb(21, 128, 216);
+  padding: 10px;
+}
+.alerts-banner, p {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
