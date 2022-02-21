@@ -6,6 +6,10 @@ img {
  max-height: 40px;
  width: auto;
 }
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
 section#hero-img {
 	/* background-color: lightcoral; */
   background-image: url("/images/software-engineer.jpg");
