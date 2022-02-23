@@ -37,6 +37,8 @@ a {
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
+  float: right;
+  margin: 10px;
 }
 
 a:hover {
@@ -66,7 +68,7 @@ h2.title {
    font-size: 30px;
 }
 
-.wrapper-theme {
+/* .wrapper-theme {
   border-radius: 15px;
   padding-top: 50px;
   width: 600px;
@@ -81,4 +83,4 @@ h2.title {
   padding: 1.5rem;
   color: white;
   text-align: center;
-}
+} */
