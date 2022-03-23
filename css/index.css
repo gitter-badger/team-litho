@@ -67,3 +67,10 @@ h2.title {
    margin: auto;
    font-size: 30px;
 }
+.section {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  font-family: sans-serif;
+  color: black;
+}
