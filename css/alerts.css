@@ -1,0 +1,9 @@
+.alerts {
+  padding: 15px;
+  background-color: rgb(177, 177, 22);
+}
+.alerts p {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
