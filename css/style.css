@@ -46,6 +46,7 @@ li {
   font-weight: bold;
   color: black;
   margin: 10px;
+  text-align: center;
 }
 i {
   color: rgb(231, 225, 225);
@@ -68,6 +69,10 @@ i {
 a {
   color: white;
   text-decoration: none;
+}
+
+a:hover {
+  color: lightslategray;
 }
 #support {
   padding: 150px;
