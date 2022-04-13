@@ -46,7 +46,6 @@ li {
   font-weight: bold;
   color: black;
   margin: 10px;
-  text-align: center;
 }
 i {
   color: rgb(231, 225, 225);
@@ -67,6 +66,7 @@ i {
   background-color: #f8f8f8;
 }
 a {
+  text-align: center;
   color: white;
   text-decoration: none;
 }
