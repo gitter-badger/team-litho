@@ -93,34 +93,34 @@ h1 {
   background-color: rgb(14, 38, 65);
 }
 
-.footer-title {
+.footer .footer-title {
   color: white;
   text-align: center;
   font-family: sans-serif;
 }
 
-.link-footer {
+.footer .link-footer {
   text-align: center;
   
 }
 
-.link-footer ul {
+.footer .link-footer ul {
    display: block;
 }
 
-.link-footer li {
+.footer .link-footer li {
   display: inline;
   margin: 15px;
   color: white;
   text-align: center;
 }
 
-.link-footer a {
+.footer .link-footer a {
   text-decoration: none;
   font-family: sans-serif;
 }
 
-.link-footer a:hover {
+.footer .link-footer a:hover {
   text-decoration: none;
   color: lightslategray;
 }
