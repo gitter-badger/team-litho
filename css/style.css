@@ -74,18 +74,9 @@ strong {
   color: rgb(1, 130, 250);
 }
 
-
-
-
-
-
 i {
   color: rgb(1, 130, 250);
 }
-
-
-
-
 section#sub-header {
   display: grid;
   padding: 30px 40px;
@@ -97,10 +88,31 @@ h1 {
   text-align: center;
 }
 
+.link-footer {
+  padding: 25px;
+  background-color: rgb(14, 38, 65);
+}
 
+.link-footer ul {
+   display: block;
+}
 
+.link-footer li {
+  display: inline;
+  margin: 15px;
+  color: white;
+  text-align: center;
+}
 
+.link-footer a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
 
+.link-footer a:hover {
+  text-decoration: none;
+  color: lightslategray;
+}
 
 
 
