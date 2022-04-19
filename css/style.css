@@ -89,12 +89,13 @@ h1 {
 }
 
 .footer {
-  text-align: center;
+  padding: 25px;
+  background-color: rgb(14, 38, 65);
 }
 
 .link-footer {
-  padding: 25px;
-  background-color: rgb(14, 38, 65);
+  text-align: center;
+  
 }
 
 .link-footer ul {
