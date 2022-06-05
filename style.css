@@ -64,10 +64,10 @@ div#svg3 {
 .footer > h3 {
   text-align: center;
 }
-.footer ul {
+ ul {
   display: block;
 }
-.footer li {
+ li {
   display: inline;
   font-weight: bold;
   color: black;
