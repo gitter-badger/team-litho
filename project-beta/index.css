@@ -27,3 +27,11 @@ nav li a:hover {
   color: white;
   text-decoration: underline;
 }
+
+nav li p {
+  font-family: sans-serif;
+  display: inline;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
