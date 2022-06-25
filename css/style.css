@@ -93,6 +93,24 @@ h1 {
   background-color: rgb(14, 38, 65);
 }
 
+.footer ul {
+  display: block;
+}
+
+.footer li {
+  display: inline;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.footer a {
+  color: lightslategray;
+}
+
+.footer a:hover {
+  color: white;
+}
+
 
 /* Scroll Themes */
 
