@@ -21,10 +21,12 @@ nav li {
 
 nav li a {
   color: lightslategray;
+  text-decoration: none;
 }
 
 nav li a:hover {
   color: white;
+  text-decoration: none;
 }
 
 nav li p {
