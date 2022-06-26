@@ -35,3 +35,34 @@ nav li p {
   font-size: 30px;
   color: black;
 }
+
+#container {
+  padding: 100px;
+  backgrounnd-color: teal;
+}
+
+#container h1 {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+#container p {
+  text-align: center;
+  color: lightgray;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.footer {
+  padding: 25px;
+  background-color: #1d1d2f;
+}
+
+.footer p {
+  color: lightslategray;
+  text-align: center;
+  font-weight: 700;
+  font-family: san;serif;
+}
