@@ -59,6 +59,7 @@ nav li p {
 .footer {
   padding: 25px;
   background-color: #1d1d2f;
+  bottom: 0;
 }
 
 .footer p {
