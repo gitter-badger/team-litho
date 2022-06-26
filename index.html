@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="/css/alerts-banner.css">
   <link rel="stylesheet" href="/css/theme-wrapper.css">
   <link rel="stylesheet" href="/css/alerts.css">
+  <link rel="stylesheet" href="/css/chatbot.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/yeti/bootstrap.min.css"
+    integrity="sha384-mLBxp+1RMvmQmXOjBzRjqqr0dP9VHU2tb3FK6VB0fJN/AOu7/y+CAeYeWJZ4b3ii" crossorigin="anonymous">
   <link rel="icon" type="image/png" href="/assets/logo_main.png" />
   <title>TeamLitho - Company</title>
 </head>
@@ -46,6 +49,27 @@
       who creates computer software. The term computer programmer can refer to a specialist in one area of computers, or
       to a generalist who writes code for many kinds of software.
     </h4>
+  </div>
+  <center>
+    <div id="chat-bot" class="container">
+      <div class="form-group">
+        <h1>Chat with us.</h1>
+      </div>
+      <div class="form-group">
+        <label for="username">UserName:</label>
+        <input type="text" id="username">
+      </div>
+      <div class="form-group">
+        <label for="room">Room:</label>
+        <select id="roomid" name="room">
+          <option value="sales-managment">Sales Managment</option>
+          <option value="customer-services">Customer Services</option>
+          <option value="online-services">Onlinee Services</option>
+          <option value="administrator">Administrator</option>
+        </select><br/>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+  </center>
   </div>
 </body>
 
