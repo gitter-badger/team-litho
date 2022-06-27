@@ -13,6 +13,10 @@ body {
 header {
   padding: 25px;
   background-color: rgb(14, 38, 65);
+
+  border-radius: 40px 10px;
+  width: 800px;
+  margin: auto;
 }
 
 ul {
