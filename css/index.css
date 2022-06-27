@@ -15,8 +15,9 @@ header {
   background-color: rgb(14, 38, 65);
 
   border-radius: 40px 10px;
+  height: 70px;
   width: 800px;
-  margin: auto;
+ position: absolute;
 }
 
 ul {
