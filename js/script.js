@@ -8,14 +8,6 @@ console.log("%cStop!", cssRule);
 
 var cssRule =
 	"color: black;" +
-	"font-size: 70px;" +
-	"font-weight: bold;" +
-	"text-shadow: 1px 1px 10px rgb(20, 0, 208);" +
-	"filter: dropshadow(color=rgb(249, 162, 34), offx=1, offy=1);";
-console.log("%cTeamLitho | Developer", cssRule);
-
-var cssRule =
-	"color: black;" +
 	"font-size: 20px;" +
 	"font-weight: arial;" +
 	"text-shadow: none;" +
