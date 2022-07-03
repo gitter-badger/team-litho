@@ -2,47 +2,56 @@ body {
   margin: 0;
   padding: 0;
 }
+
 img {
- max-height: 40px;
- width: auto;
+  max-height: 40px;
+  width: auto;
 }
+
 section#hero-img {
-	/* background-color: lightcoral; */
+  /* background-color: lightcoral; */
   background-image: url("/images/software-engineer.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #000000;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 190px;
 }
+
 .button {
   text-align: center;
 }
+
 p {
   font-weight: bold;
   text-align: center;
   font-size: 25px;
 }
+
 .title {
   font-weight: bold;
   text-align: left;
   font-size: 20px;
 }
+
 .site-name {
   text-align: center;
   font-weight: bold;
   font-size: 65px;
 }
+
 #home {
   padding: 150px;
   font-size: 25px;
   background-color: #21b9a5;
 }
+
 #content {
   padding: 150px;
   font-size: 25px;
   background-color: #f8f8f8;
 }
+
 a {
   text-align: center;
   color: white;
@@ -52,24 +61,29 @@ a {
 a:hover {
   color: lightslategray;
 }
+
 #support {
   padding: 150px;
   font-size: 25px;
   background-color: #b921ac;
 }
+
 .feature {
   padding: 150px;
   font-size: 25px;
   background-color: #21b935;
 }
+
 .contact {
   padding: 150px;
   font-size: 25px;
   background-color: #b9a221;
 }
+
 p#timeupdater {
   color: rgb(0, 0, 0);
 }
+
 strong {
   color: rgb(1, 130, 250);
 }
@@ -77,6 +91,7 @@ strong {
 i {
   color: rgb(1, 130, 250);
 }
+
 section#sub-header {
   display: grid;
   padding: 30px 40px;
@@ -84,6 +99,7 @@ section#sub-header {
   align-items: center;
   justify-content: space-between;
 }
+
 h1 {
   text-align: center;
 }
@@ -111,9 +127,9 @@ h1 {
   color: white;
 }
 
-.footer-title {
-  color: lightgray;
+.footer ul li p {
   display: inline;
+  color: white;
 }
 
 
@@ -121,37 +137,40 @@ h1 {
 
 /* width */
 ::-webkit-scrollbar {
-	width: 15px;
-	background-color: rgba(11, 66, 150, 0.726);
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px rgb(139, 139, 139);
-	border-radius: 10px;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-	background: rgb(255, 255, 255);
-	border-radius: 10px;
-  }
+  width: 15px;
+  background-color: rgba(11, 66, 150, 0.726);
+}
 
-	.alerts {
-		padding: 1px;
-		background-color: firebrick;
-	}
-	.alerts h3 {
-		padding: 1rem;
-		color: white;
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-		text-align: center;
-	}
-	.alerts a {
-		color: #000000;
-		font-size: 25px;
-		text-decoration: none;
-	}
-	.alerts a:hover {
-		color: lightslategray;
-	}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(139, 139, 139);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.alerts {
+  padding: 1px;
+  background-color: firebrick;
+}
+
+.alerts h3 {
+  padding: 1rem;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.alerts a {
+  color: #000000;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.alerts a:hover {
+  color: lightslategray;
+}
