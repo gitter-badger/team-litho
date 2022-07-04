@@ -1,3 +1,8 @@
+/*
+ * @author Joey Cadieux <joey.cadieux@techie.com>
+ */
+
+
 const addBox = document.querySelector(".add-box"),
     popupBox = document.querySelector(".popup-box"),
     popupTitle = popupBox.querySelector("header p"),

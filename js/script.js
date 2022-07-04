@@ -1,3 +1,8 @@
+
+/*
+ * @author Joey Cadieux <joey.cadieux@techie.com>
+ */
+
 var cssRule =
 	"color: red;" +
 	"font-size: 70px;" +
