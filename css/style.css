@@ -124,12 +124,13 @@ h1 {
 }
 
 .footer a:hover {
-  color: white;
+  color: rgb(27, 93, 208);
 }
 
 .footer ul li p {
   display: inline;
   color: white;
+  font-family: sans-serif;
 }
 
 
