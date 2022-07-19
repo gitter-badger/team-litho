@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url('/assets/wave-haikei.svg');
+  /* background-image: url('/assets/wave-haikei.svg'); */
   background-size: cover;
   /* background-color: white; */
   /*background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);*/
