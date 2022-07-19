@@ -8,6 +8,12 @@ body {
 
 }
 
+#background-vanta {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 nav {
   padding: 15px;
 }
