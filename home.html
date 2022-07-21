@@ -16,6 +16,9 @@
 </head>
 
 <body class="home">
+  <br>
+  <br>
+  <button type="button" onclick="goBack()" class="btn btn-secondary">Go Back</button>
   <section id="hero-img">
     <div class="sitename">
       <h1><span style="color: black;">TeamLitho</span> | <span style="color: lightslateblue;">Developer</span> </h1>
@@ -115,6 +118,12 @@
       </li>
     </ul>
   </div>
+
+  <script type="text/javascript">
+    function goBack() {
+      location.assign('/index.html')
+    }
+  </script>
 
   <script src="/js/index.js"></script>
   <script src="/js/script.js"></script>
