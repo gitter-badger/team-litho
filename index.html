@@ -41,12 +41,6 @@
 		   </div>
 	</div>
 
-	<!-- Scrollable modal -->
-<div id="myModal" class="modal-dialog modal-dialog-scrollable">
-     <h1>Welcome To TeamLitho</h1>
-	   <h3>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software. The term computer programmer can refer to a specialist in one area of computers, or to a generalist who writes code for many kinds of software.</h3>
-  </div>
-
   <script src="js/script.js"></script>
 
 	<script type="text/javascript">
@@ -56,23 +50,6 @@
 	   function goGithub() {
 		location.assign('https://github.com/drjoeycadieux')
 	   }
-
-	   $(document).ready(function () {
-    
-    var key = 'hadModal',
-        hadModal = localStorage.getItem(key);
-
-
-     if (!hadModal) 
-
-       {
-      $('#myModal').modal('show');
-  }
-
-   $('#myModal').on('shown.bs.modal', function () {
-   localStorage.setItem(key, true);
-   })
-});
 	</script>
 </body>
 </html>
