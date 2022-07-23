@@ -40,6 +40,8 @@ nav ul li a {
 
 #home-container h3 {
   color: rgba(178, 175, 175, 0.475);
+  width: 600px;
+  margin: auto;
 }
 
 .inner {
