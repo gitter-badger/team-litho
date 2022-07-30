@@ -51,3 +51,7 @@ nav ul li a {
   width: 700px;
   margin: auto;
 }
+
+#span1 a:hover {
+  color: lightslategray;
+}
