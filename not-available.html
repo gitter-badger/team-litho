@@ -14,8 +14,7 @@
 </head>
 <body>
     <div class="home-content">
-        <p>Coming Soon! <span id="time" style="color: rgb(255, 255, 255);"></span> </p>
-        <h1>Uh oh, this page does not exist.</h1>
+        <h1>Uh oh, this page is not available.</h1>
         <button type="btn" onclick="returnHome()" class="btn btn-primary">Return Home</button>
     </div>
     <style>
@@ -41,8 +40,6 @@
       function returnHome() {
         location.assign('./index.html')
       }
-        document.getElementById('time').innerHTML = time;
-        const time = moment().format('lll');
     </script>
 </body>
 </html>
