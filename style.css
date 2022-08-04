@@ -8,8 +8,8 @@ body {
 
 .navbar {
   position: fixed;
-  overflow: hidden;
-  /* background-color: palevioletred; */
+  top: 0;
+  width: 100%;
   background-color: #f36b7f;
   padding: 25px;
 }

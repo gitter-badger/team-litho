@@ -14,14 +14,12 @@
 </head>
 
 <body>
-	<div id="sticky" class="sticky">
-		<div id="navbar" class="navbar">
+	<div class="navbar">
 			<ul>
 			   <li><a href="/">Home</a></li>
 			   <li><a href="./not-available.html">Project Beta</a></li>
 			</ul>
 		  </div>
-	</div>
    <div class="header">
       <h1>TechTack Technologies</h1>
 	  <hr>
@@ -41,24 +39,5 @@
    <div class="footer">
 	<p>&copy; Copyright <script type="text/javascript">document.write(new Date().getFullYear())</script> TechTack Technologies</p>
    </div>
-   <script>
-	// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var navbar = document.getElementById("navbar");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-   </script>
 </body>
 </html>
