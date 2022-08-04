@@ -53,15 +53,27 @@ body {
   padding: 150px;
 }
 
+.home-content h1 {
+  font-family: sans-serif;
+}
+
 .about-content {
   text-align: center;
   padding: 150px;
   background-color: lightgray;
 }
 
+.about-content h1 {
+  font-family: sans-serif;
+}
+
 .intern-content {
   text-align: center;
   padding: 150px;
+}
+
+.intern-content h1 {
+  font-family: sans-serif;
 }
 
 .footer {
