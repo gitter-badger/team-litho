@@ -1,0 +1,20 @@
+.footer ul {
+    display: block;
+}
+
+.footer ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.footer ul li a:hover {
+    color: lightslategray;
+    text-decoration: underline;
+}
