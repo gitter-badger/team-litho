@@ -1,0 +1,8 @@
+.button:hover {
+    color: lightgray;
+}
+
+.button {
+    font-weight: bold;
+    margin: 10px;
+}
