@@ -1,0 +1,14 @@
+orbs:
+  docker: circleci/docker@2.1.2
+
+jobs:
+  example-job:
+    docker:
+      # replace with your preferred image
+      - image: cimg/base:stable
+    steps:
+      - docker/install-docker
+workflows:
+  example-workflow:
+    jobs:
+      - example-job
