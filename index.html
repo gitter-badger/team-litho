@@ -1,42 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex,nofollow">
+	<meta name="Description"
+		CONTENT="teamlitho.com A help desk is a resource intended to provide the customer or end user with information and support related to a company's">
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="./style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="./alerts.css">
+	<link rel="stylesheet" href="./css/button.css">
+	<link rel="stylesheet" href="./css/footerlink.css">
+	<link rel="icon" type="image/png" href="/assets/teamlitho.png" />
+	<title>TeamLitho | Developer</title>
 </head>
 
 <body>
-	<div class="alerts">
-		<p><span id="span1" style="color: white; font-size: 25px"><i class="bi bi-info-square"></i></span>
-			This website is on development mode, Report any bug to the admin. <a
-				style="color: lightslategray; font-size: 20px; font-weight: 500; font-family: sans-serif; "
-				href="https://forms.gle/qN24PforMY5PwhzG9" target="_blank" rel="noopener noreferrer">Found an
-				Issues!</a></p>
+	<div class="navbar">
+		<ul>
+			<li><a style="color: white; font-size: 30px; text-decoration: none;" href="./index.html">TeamLitho</a></li>
+			<li><a href="./home.html">Home</a></li>
+			<li><a href="./index.html">Back</a></li>
+			<!-- <div class="right-link">
+				<a href="#">Login</a>
+				<a href="#">Register</a>
+			</div> -->
+		</ul>
 	</div>
-	<div>
-		<nav>
-			<center>
-				<ul>
-					<li><a href="home.html">Home</a></li>
-					<li><a href="./not-available.html">Project Beta</a></li>
-				</ul>
-			</center>
-		</nav>
-		<div class="inner"></div>
-		<div id="home-container" class="container-sm">
-			<center>
-				<h1>Welcome To TeamLitho</h1>
-				<h3>A computer programmer, sometimes called a software developer, a programmer or more recently a coder,
-					is a person who creates computer software. The term computer programmer can refer to a specialist in
-					one area of computers, or to a generalist who writes code for many kinds of software.</h3>
-				<button onclick="goHome()" class="btn btn-primary" type="button">Go Home</button>
-				<button onclick="goGithub()" class="btn btn-secondary" type="button">Github</button>
-			</center>
-		</div>
+	<div class="header">
+		<!-- <img src="./assets/teamlitho.png" alt="" width="304" height="236"> -->
+		<h1>TechTack Technologies</h1>
+		<center>
+			<button class="button" onclick="Getstarted()"
+				style="border: 1px solid white; padding: 15px; border-radius: 5px;">Get Started</button>
+			<button class="button" onclick="Readdocs()"
+				style="border: 1px solid white; padding: 15px; border-radius: 5px;">Read Docs</button>
+		</center>
+		<br>
+		<hr style="border-top: 2px solid white; width: 600px; margin: auto;">
 	</div>
+	<div class="home-content">
+		<img src="./assets/images/dev-assets/dev-image/129.svg" alt="" width="304" height="236">
+		<h1>Technology is defined as “purposeful intervention by design”, and
+			technological practice as the activity through which technological
+			outcomes are created and have impact in the world. Technological
+			outcomes are designed to enhance the capabilities of people and expand
+			human possibilities</h1>
+	</div>
+	<div class="about-content">
+		<img src="./assets/images/dev-assets/dev-image/306.svg" alt="" width="304" height="236">
+		<h1>A help desk is a resource intended to provide the customer or end user
+			with information and support related to a company's or institution's
+			products and services</h1>
+	</div>
+	<div class="intern-content">
+		<img src="./assets/images/dev-assets/dev-image/118.svg" alt="" width="304" height="236">
+		<h1>A help desk is a resource intended to provide the customer or end user
+			with information and support related to a company's or institution's
+			products and services</h1>
+	</div>
+	<div class="footer">
+		<p>&copy; Copyright
+			<script type="text/javascript">document.write(new Date().getFullYear())</script> TechTack Technologies
+		</p>
+	</div>
+	<script src="js/script.js"></script>
+	<script type="text/javascript">
+		function Getstarted() {
+			location.assign('/pages/get-started.html')
+		}
+
+		function Readdocs() {
+			location.assign('/pages/read-docs.html')
+		}
+	</script>
 </body>
 
 </html>
