@@ -6,22 +6,6 @@ body {
 
 }
 
-/* .right-link {
-  display: inline;
-}
-
-.right-link a {
-  color: white;
-  text-decoration: none;
-  font-family: sans-serif;
-  border: outset 1px white;
-  padding: 10px;
-  border-radius: 25px;
-  float: right;
-  width: 75px;
-  margin-right: 15px;
-} */
-
 .navbar {
   position: fixed;
   top: 0;
