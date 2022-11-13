@@ -1,0 +1,119 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(27, 99, 134, 1) 35%, rgba(169, 179, 175, 1) 100%);
+}
+
+.inner {
+    padding: 1px;
+    background-color: beige;
+}
+
+.navbar_item_menu {
+    padding: 25px;
+}
+
+.navbar_item_menu ul {
+    display: block;
+}
+
+.navbar_item_menu ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.navbar_item_menu ul li a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #2243A0;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.navbar_item_menu a:hover {
+    color: lightslategray;
+}
+
+.header_top {
+    padding: 100px;
+    width: 700px;
+    margin: auto;
+    -webkit-box-shadow: 5px 1px 10px 18px #2243A0;
+    box-shadow: 5px 1px 10px 18px #2243A0;
+}
+
+.header_top h1 {
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 50px;
+}
+
+.container_content {
+    padding: 50px;
+    width: 700px;
+    margin: auto;
+    background-color: #2243A0;
+    border-radius: 15px;
+}
+
+.container_content p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.container_content h3 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-decoration: wavy;
+}
+
+.content-info {
+    background-color: #2243A0;
+    padding: 50px;
+    border-radius: 15px;
+    width: 600px;
+    margin: 15px;
+}
+
+.content-info p {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.alpha {
+    background-color: #2243A0;
+    padding: 50px;
+    border-radius: 15px;
+    width: 600px;
+    margin: 120px;
+    margin: auto;
+    margin-right: 40px;
+}
+
+.alpha p {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer {
+    padding: 45px;
+    background-color: #2243A0;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.footer p {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
