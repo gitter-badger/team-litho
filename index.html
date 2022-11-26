@@ -1,82 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="robots" content="noindex,nofollow">
-	<meta name="Description"
-		CONTENT="teamlitho.com A help desk is a resource intended to provide the customer or end user with information and support related to a company's">
-	<meta name="viewport" content="width=device-width">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="./style.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="./alerts.css">
-	<link rel="stylesheet" href="./css/button.css">
-	<link rel="stylesheet" href="./css/footerlink.css">
-	<link rel="icon" type="image/png" href="/assets/teamlitho.png" />
-	<title>TeamLitho | Developer</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>TeamLitho</title>
 </head>
 
 <body>
-	<div class="navbar">
+	<div class="navbar_menu">
 		<ul>
-			<li><a style="color: white; font-size: 30px; text-decoration: none;" href="./index.html">TeamLitho</a></li>
-			<li><a href="./home.html">Home</a></li>
-			<li><a href="./index.html">Back</a></li>
-			<li><a href="./about.html">About</a></li>
-			<li><a href="./new-home.html">Preview</a></li>
-			<!-- <div class="right-link">
-				<a href="#">Login</a>
-				<a href="#">Register</a>
-			</div> -->
+			<li>
+				<a href="/">Home</a>
+			</li>
+			<li>
+				<a href="./about.html">About</a>
+			</li>
+			<li>
+				<a href="./terms.html">Terms of Services</a>
+			</li>
 		</ul>
 	</div>
-	<div class="header">
-		<!-- <img src="./assets/teamlitho.png" alt="" width="304" height="236"> -->
-		<h1>TechTack Technologies</h1>
+	<br>
+	<br>
+	<div class="header_top">
+		<h1>
+			Welcome To TeamLitho
+		</h1>
+		<p>Most Advanced Platform For Developers.</p>
 		<center>
-			<button class="button" onclick="Getstarted()"
-				style="border: 1px solid white; padding: 15px; border-radius: 5px;">Get Started</button>
-			<button class="button" onclick="Readdocs()"
-				style="border: 1px solid white; padding: 15px; border-radius: 5px;">Read Docs</button>
+			<button class="btn btn-primary">Get Started</button>
 		</center>
-		<br>
-		<hr style="border-top: 2px solid white; width: 600px; margin: auto;">
 	</div>
-	<div class="home-content">
-		<img src="./assets/images/dev-assets/dev-image/129.svg" alt="" width="304" height="236">
-		<h1>Technology is defined as “purposeful intervention by design”, and
-			technological practice as the activity through which technological
-			outcomes are created and have impact in the world. Technological
-			outcomes are designed to enhance the capabilities of people and expand
-			human possibilities</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<img class="img-responsive" src="/dev-assets/dev-image/464.png" alt="" width="304" height="236">
+			</div>
+		</div>
 	</div>
-	<div class="about-content">
-		<img src="./assets/images/dev-assets/dev-image/306.svg" alt="" width="304" height="236">
-		<h1>A help desk is a resource intended to provide the customer or end user
-			with information and support related to a company's or institution's
-			products and services</h1>
-	</div>
-	<div class="intern-content">
-		<img src="./assets/images/dev-assets/dev-image/118.svg" alt="" width="304" height="236">
-		<h1>A help desk is a resource intended to provide the customer or end user
-			with information and support related to a company's or institution's
-			products and services</h1>
-	</div>
-	<div class="footer">
-		<p>&copy; Copyright
-			<script type="text/javascript">document.write(new Date().getFullYear())</script> TechTack Technologies
-		</p>
-	</div>
-	<script src="js/script.js"></script>
-	<script type="text/javascript">
-		function Getstarted() {
-			location.assign('/pages/get-started.html')
-		}
-
-		function Readdocs() {
-			location.assign('/pages/read-docs.html')
-		}
-	</script>
+	<script src="./js/button.js"></script>
 </body>
 
 </html>
