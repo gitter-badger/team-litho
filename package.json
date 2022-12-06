@@ -1,28 +1,11 @@
 {
   "name": "team-litho",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "devDependencies": {
-    "eslint": "^8.20.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.4",
-    "eslint-plugin-promise": "^6.0.0",
-    "prettier": "2.7.1"
-  },
+  "description": "TeamLitho | developers - advanced platform for developers.",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/drjoeycadieux/team-litho.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/drjoeycadieux/team-litho/issues"
-  },
-  "homepage": "https://github.com/drjoeycadieux/team-litho#readme"
+  "author": "Joey Cadieux",
+  "license": "ISC"
 }
