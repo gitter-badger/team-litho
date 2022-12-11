@@ -6,7 +6,9 @@ body {
 
 .navbar_top {
   padding: 25px;
-  background-color: floralwhite;
+  background-color: lightcoral;
+  top: 0;
+  width: 100%;
 }
 
 .navbar_top ul {
@@ -19,44 +21,40 @@ body {
 }
 
 .navbar_top ul li a {
-  font-size: 25px;
   color: black;
-  font-weight: bold;
   font-family: sans-serif;
+  font-size: 25px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .navbar_top a:hover {
   color: lightslategray;
 }
 
-.header_top {
+.header {
   padding: 150px;
-  background-color: lightgray;
-}
-
-.header_top h1 {
   text-align: center;
-  font-family: sans-serif;
-  font-size: 50px;
+  background-color: lightcoral;
 }
 
-.header_top p {
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-.future {
-  padding: 70px;
-  text-align: center;
-  font-family: sans-serif;
-  background-color: steelblue;
-  width: 700px;
-  margin: auto;
-  border-radius: 15px;
-}
-
-.future h1 {
+.header h1 {
   color: white;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  background-color: rgb(42, 42, 87);
+}
+
+.container {
+  padding: 0;
+  display: block;
+  display: flex;
+}
+
+.text {
+  font-family: sans-serif;
+  text-align: center;
 }
