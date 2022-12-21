@@ -10,42 +10,41 @@
 </head>
 
 <body>
-	<div class="navbar_top">
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/">About</a></li>
-			<li><a href="/">Documentation</a></li>
-		</ul>
-	</div>
-	<div class="header">
+	<div id="team-background" class="header_top">
+		<div class="navbar_header">
+			<ul>
+				<li><a href="/">Welcome</a></li>
+				<li><a href="/home.html">Home</a></li>
+				<li><a href="https://github.com/drjoeycadieux/team-litho">Github</a></li>
+			</ul>
+			<!-- <hr id="lines"> -->
+		</div>
 		<h1>
-			Hello Programmer!
+			Welcome TeamLitho
 		</h1>
 	</div>
-	<div class="wrapper">
-		<div class="container">
-			<div class="text" style="background-color: bisque; padding: 1rem; border-radius: 10px; margin: 50px;">
-				<h1>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sapiente in accusamus nulla et magni
-					saepe
-					nemo quos alias, quae excepturi quidem consequatur, tempora culpa perferendis! Distinctio autem
-					facere
-					soluta?
-				</h1>
-			</div>
-			<div class="container">
-				<div class="text"
-					style="background-color: burlywood; padding: 1rem; border-radius: 10px; margin: 50px;">
-					<h1>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis error, nesciunt distinctio
-						aperiam
-						accusantium reprehenderit temporibus doloribus ut non nemo molestias at omnis molestiae quaerat,
-						cupiditate fugit ipsum odit nihil.
-					</h1>
-				</div>
-			</div>
-		</div>
+	<div class="home-content">
+		<img src="./assets/images/dev-assets/dev-image/129.svg" alt="" width="304" height="236">
+		<h1>Technology is defined as “purposeful intervention by design”, and
+			technological practice as the activity through which technological
+			outcomes are created and have impact in the world. Technological
+			outcomes are designed to enhance the capabilities of people and expand
+			human possibilities</h1>
 	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
+	<script type="text/javascript">
+		VANTA.NET({
+			el: "#team-background",
+			mouseControls: true,
+			touchControls: true,
+			gyroControls: false,
+			minHeight: 200.00,
+			minWidth: 200.00,
+			scale: 1.00,
+			scaleMobile: 1.00
+		})
+	</script>
 </body>
 
 </html>
