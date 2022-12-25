@@ -59,3 +59,31 @@ body {
   text-align: center;
   padding: 10px;
 }
+
+/* Footer Css */
+
+.footer {
+  padding: 50px;
+  background-color: darkslateblue;
+  display: flex;
+}
+
+.container ul {
+  display: block;
+  margin: 10px;
+}
+
+.container ul li {
+  display: grid;
+}
+
+.container ul li a {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.container a:hover {
+  color: lightslategray;
+}
