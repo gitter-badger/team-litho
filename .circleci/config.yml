@@ -1,14 +1,23 @@
-orbs:
-  docker: circleci/docker@2.1.2
-
-jobs:
-  example-job:
+version: 2.1
+executors:
+  my-custom-executor:
     docker:
-      # replace with your preferred image
-      - image: cimg/base:stable
+      - image: cimg/node
+        auth:
+          # ensure you have first added these secrets
+          # visit app.circleci.com/settings/project/github/drjoeycadieux/team-litho/environment-variables
+          username: $DOCKER_HUB_USER
+          password: $DOCKER_HUB_PASSWORD
+jobs:
+  team-litho:
+
+    executor: my-custom-executor
     steps:
-      - docker/install-docker
+      - checkout
+      - run: |
+          # echo Hello, World!
+
 workflows:
-  example-workflow:
+  my-custom-workflow:
     jobs:
-      - example-job
+      - team-litho
