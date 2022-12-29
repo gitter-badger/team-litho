@@ -63,15 +63,26 @@ body {
 /* Alerts */
 
 .alerts {
-  padding: 5px;
-  background-color: darkorange;
+  padding: 1rem;
+  background-color: firebrick;
+  text-align: center;
 }
 
 .alerts p {
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 25px;
+  color: white;
+  font-family: sans-serif;
   font-weight: bold;
+}
+
+.alerts a {
+  color: lightslategray;
+  border: 1px solid black;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.alerts a:hover {
+  color: white;
 }
 
 /* Footer Css */
