@@ -79,6 +79,7 @@ body {
   border: 1px solid black;
   padding: 1rem;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 .alerts a:hover {
