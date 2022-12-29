@@ -90,10 +90,16 @@ body {
 
 /* Footer Css */
 
-.footer {
-  padding: 50px;
-  background-color: darkslateblue;
-  display: flex;
+.footerModule {
+  padding: 15px;
+  background-color: #404a59;
+}
+
+.footerModule p {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 .container ul {
