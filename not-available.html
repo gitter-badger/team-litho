@@ -13,16 +13,70 @@
 </head>
 
 <body>
-    <div class="home-content">
-        <h1>Uh oh, this page is not available.</h1>
-        <p style="color: lightslategray; text-align: center; font-family: sans-serif;">Under Development <span
-                style="color: white; font-size: 25px;"><i class="bi bi-code-slash"></i></span></p>
-        <button type="btn" onclick="returnHome()" class="btn btn-primary">Return Home</button>
+    <div class="header_top_page">
+        <h1>
+            Not Available At The Moment.
+        </h1>
+        <p>
+            TeamLitho. Advanced Platform For Developers.
+        </p>
+        <div class="_navigation_between_page">
+            <center>
+                <button onclick="GoHome()"> Return Home</button>
+            </center>
+        </div>
     </div>
+    <div class="Page_content">
+        <center>
+            <img src="./assets/images/dev-assets/dev-image/472.svg" width="236" height="205">
+            <h3>
+                Come Back Later On.
+            </h3>
+        </center>
+    </div>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
 
-    <script type="text/javascript">
-        function returnHome() {
-            location.assign('./index.html')
+        ._navigation_between_page {
+            padding: 5px;
+        }
+
+        ._navigation_between_page button {
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        ._navigation_between_page button:hover {
+            background-color: rgb(28, 44, 88);
+        }
+
+        .header_top_page {
+            padding: 125px;
+            background-color: rgb(28, 44, 88);
+        }
+
+        .header_top_page h1 {
+            padding: 5px;
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .header_top_page p {
+            padding: 5px;
+            color: lightgray;
+            text-align: center;
+            font-family: sans-serif;
+        }
+    </style>
+
+    <script>
+        function GoHome() {
+            location.assign("./index.html")
         }
     </script>
 </body>
