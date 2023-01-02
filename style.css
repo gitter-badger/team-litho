@@ -95,6 +95,18 @@ body {
   padding: 10px;
 }
 
+.our_dev_team {
+  padding: 100px;
+  background-color: lightseagreen;
+  display: flex;
+}
+
+.our_dev_team h1 {
+  padding: 5px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
 /* Alerts */
 
 .alerts {
